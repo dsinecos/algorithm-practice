@@ -1,0 +1,11 @@
+{
+  "name": "algorithmPractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Divyanshu Singh <dsinecos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}

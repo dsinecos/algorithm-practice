@@ -14,8 +14,6 @@ function checkDuplicates(...args) {
     return false;
 }
 
-console.log(checkDuplicates(1, 8, 3, 4, 5, 4));
-
 module.exports = checkDuplicates;
 
 

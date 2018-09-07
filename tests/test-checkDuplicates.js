@@ -18,4 +18,19 @@ describe("Test Check duplicates", function() {
         expect(result).to.be.false;
     })
 
+    it("Test case 2 from Udemy course - 1, 2, 3", function() {
+        var result = checkDuplicates(1, 2, 3);
+        expect(result).to.be.false;
+    })
+
+    it("Test case 2 from Udemy course - 1, 2, 2", function() {
+        var result = checkDuplicates(1, 2, 2);
+        expect(result).to.be.true;
+    })
+
+    it("Test case 3 from Udemy course - 'a', 'b', 'c', 'a'", function() {
+        var result = checkDuplicates('a', 'b', 'c', 'a');
+        expect(result).to.be.true;
+    })
+
 })

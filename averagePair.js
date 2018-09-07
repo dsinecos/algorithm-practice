@@ -1,3 +1,6 @@
+// https://www.udemy.com/js-algorithms-and-data-structures-masterclass/
+// Section 6 - Exercise 5
+
 function averagePair(array, targetAvg) {
 
     if (!array.length) return false;

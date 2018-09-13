@@ -15,13 +15,13 @@ describe("Test for sub-sequences pair", function() {
     it("Udemy Test case 2 - 'sing', 'sting'", function() {
         let result = isSubsequence('sing', 'sting');
 
-        expect(result).to.be.false;
+        expect(result).to.be.true;
     })
 
     it("Udemy Test case 3 - 'abc', 'abracadabra'", function() {
         let result = isSubsequence('abc', 'abracadabra');
 
-        expect(result).to.be.false;
+        expect(result).to.be.true;
     })
 
     it("Udemy Test case 4 - 'abc', 'acb'", function() {

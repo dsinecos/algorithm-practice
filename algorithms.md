@@ -16,9 +16,14 @@
 
 - Use language's built in data structures that remove duplicates eg. Set in JavaScript
 
-## Find the longest sub-string
+## Find the longest sub-string with no duplicate characters
 
 **Approaches**
 
 - Sliding Window pattern
-    - 
+    - Start with two pointers - left and right - at index 0
+    - Cover edge cases when the string is empty or has only 1 character
+    - Iterate until the rightPointer < length
+    - Compare for each character within a subsequence against the rightPointer
+        - If there is a match, shift the leftPointer and update the LongestSubstring length
+        - If there is no match increment the rightPointer and update the LongestSubstring length

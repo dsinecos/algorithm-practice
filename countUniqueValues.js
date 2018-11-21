@@ -16,13 +16,13 @@ function countUniqueValues(arr) {
     }
 
     while (rightPointer < arr.length) {
-        if (arr[rightPointer] === arr[leftPointer]) {
-            rightPointer += 1;
-        } else {
+        
+        if (arr[rightPointer] !== arr[leftPointer]) {
             count += 1;
             leftPointer = rightPointer;
-            rightPointer += 1;
         }
+
+        rightPointer += 1;
     }
 
     return count;
